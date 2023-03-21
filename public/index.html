@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous">
+
+    <link rel="stylesheet" href="outputs.css">
+    <link rel="stylesheet" href="css/main.css">
+   
+  
+    <title>AIRMARCARGO</title>
+</head>
+<body>
+
+  <!-- Navbar -->
+  <div class="w-full flex flex-row bg-grisAirmar">
+  <nav class="container mx-auto p-6 pt-12 pb-12 bg-grisAirmar">
+    <!-- Flex container -->
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <div class="pt-2">
+        <img src="./img/logo_airmarcargo_horizontal.png" alt="" />
+      </div>
+      <!-- Menu Items -->
+      <div class="hidden space-x-6 md:flex md:text-white">
+        <a href="index.html" class="md:hover:text-verdeAirmar">INICIO</a>
+        <a href="la_empresa.html" class="md:hover:text-verdeAirmar">LA EMPRESA</a>
+        <a href="servicios.html" class="md:hover:text-verdeAirmar">SERVICIOS</a>
+        <a href="galeria.html" class="md:hover:text-verdeAirmar">GALERIA</a>
+        <a href="contacto.html" class="md:hover:text-verdeAirmar">CONTACTO</a>
+      </div>
+      <!-- Redes -->
+    <div class="hidden justify-end md:flex">
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-instagram-square"></i>
+        </a>
+    </div>
+      <!-- Hamburger Icon -->
+      <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="md:hidden">
+      <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white z-50 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+      >
+      <a href="index.html">INICIO</a>
+      <a href="la_empresa.html">LA EMPRESA</a>
+      <a href="servicios.html">SERVICIOS</a>
+      <a href="galeria.html">GALERIA</a>
+      <a href="contacto.html">CONTACTO</a>
+      </div>
+    </div>
+  </nav>
+</div>
+<section id="banner" class="bg-verdeAirmar z-10">
+
+  <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img
+          src="./img/banner_airmarcargo_01.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+
+      <div class="carousel-item">
+        <img
+          src="./img/banner_airmarcargo 1.jpg"
+          class="d-block w-100" alt="...">
+      </div>
+      
+    </div>
+    <button class="carousel-control-prev" type="button"
+      data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button"
+      data-bs-target="#carouselExampleControls" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+</section>
+
+<section id="servicios">
+  <div class="container flex flex-col bg-white px-6 py-2 md:px-12 md:py-12">
+   <div class="my-6 mx-6 md:my-20 md:mx-0">
+    <h3 class="text-4xl font-light text-bold text-grisAirmar xl:text-4xl xl:text-left xl:font-light">Nuestros Servicios</h3>
+    <p class="mt-6 mx-0 text-2xl xl:text-left xl:mt-2 xl:text-lg">Warehousing, for palletized and loose merchandise in both primary and </p>
+  </div>
+    <!--CONTENEDOR DE IMAGENES-->
+    <div class="grid grid-cols-2 gap-x-2 mx-0 my-0 md:grid-cols-4 md:gap-x-8 md:mx-auto mt-10 md:h-full">
+   
+      <div class="grid grid-rows-2 rounded-2xl overflow-hidden bg-gradient-to-b from-slate-200 to-slate-100 mb-10">
+        <h3 class="mt-10 text-center text-xl font-light text-grisAirmar md:mt-20 md:text-2xl"><a href="">MARITIMAS</a></h3>
+        <div class="items-end"><img src="./img/img_maritimo.png" class="w-full"></div>
+      </div>
+
+      <div class="grid grid-rows-2 rounded-2xl overflow-hidden bg-gradient-to-b from-slate-200  to-slate-100 mb-10">
+        <h3 class="mt-10 text-center text-xl font-light text-grisAirmar md:mt-20 md:text-2xl"><a href="">AÉREOS</a></h3>
+        <div class="items-end"><img src="./img/img_aereos.png" class="w-full"></div>
+      </div>
+
+      <div class="grid grid-rows-2 rounded-2xl overflow-hidden bg-gradient-to-b from-slate-200  to-slate-100 mb-10">
+        <h3 class="mt-10 text-center text-xl font-light text-grisAirmar md:mt-20 md:text-2xl"><a href="">TERRESTRES</a></h3>
+        <div class="items-end"><img src="./img/img_terrestres.png" class="w-full"></div>
+      </div>
+
+      <div class="grid grid-rows-2 rounded-2xl overflow-hidden bg-gradient-to-b from-slate-200  to-slate-100 mb-10">
+        <h3 class="mt-10 text-center text-xl font-light text-grisAirmar md:mt-20 md:text-2xl"><a href="">CARGAS <br/>CONSOLIDADAS</a></h3>
+        <div class="items-end"><img src="./img/img_cargas_consolidaas.png" class="w-full"></div>
+      </div>
+
+      
+
+
+  </div>
+</section>  
+
+<section class="" id="calidad">
+  <div class="flex grid grid-cols-1 px-6 mx-6 rounded-2xl text-xl text-white px-10 md:px-20 py-20 gap-4 bg-verdeAirmar md:grid-cols-3 md:container md:mx-auto">
+  <div class="mb-6 md:flex">
+  <div class="w-9 mx-auto mb-4 md:w-1/4 md:mx-4 md:ml-2 md:mr-4"><img src="./img/icon-ok.svg"></div>
+    <div class="flex text-center md:text-left">Qualified to handle various types of cargo: dangerous, refrigerated, special and project cargo.</div>
+  </div>
+  <div class="mb-6 md:flex">
+    <div class="w-9 mx-auto mb-4 md:w-1/4 md:mx-4 md:ml-2 md:mr-4"><img src="./img/icon-globo.svg"></div>
+    <div class="flex text-center md:text-left">Counting with a network of agents around the globe that provide us with the support needed to guarantee quality and safety in every process.</div>
+
+  </div>
+  <div class="mb-6 md:flex">
+    <div class="w-9 mx-auto mb-4 md:w-1/4 md:mx-4 md:ml-2 md:mr-4"><img src="./img/icon-hands.svg"></div>
+    <div class="flex text-center md:text-left">Counting with a network of agents around the globe that provide us with the support needed to guarantee quality and safety in every process.</div>
+
+  </div>
+  </div>
+</section>
+
+<section class="" id="adicionalServices">
+
+ 
+  <div class="container flex flex-col px-4 mx-auto space-y-12 md:space-y-0 md:flex-row md:h-[738px]">
+    <div class="flex flex-col space-y-2 md:w-1/2 mb-20 mt-[88px]">
+      <h3 class="text-4xl font-light md:text-4xl md:text-left md:font-light text-bold text-grisAirmar">Servicios Adicionales</h3>
+      <p class="mt-12 mx-0 text-2xl md:text-left md:mt-0 md:text-lg">Warehousing, for palletized and loose merchandise in both primary and</p>
+      
+      <div class="flex flex-col grid grid-cols-1 grid-rows-1 gap-4 pt-[88px] text-xl md:grid-cols-2 md:grid-rows-3 md:text-base">
+      
+        
+        
+        <div class="relative pl-16 bg-white">
+
+          <div class="font-semibold leading-6 text-gray-900">
+
+            <div class="absolute top-0 left-0 flex h-12 w-12 items-center justify-center rounded-lg md:h-14 md:w-14">
+
+              <img src="./img/icon-warehousing.svg">
+            </div>
+            
+            Warehousing Services
+          </div>
+          <div class="mt-0 leading-6 text-gray-600">Warehousing, for palletized and loose merchandise in both primary and secondary customs area. Inventory and stock control.</div>
+        </div>
+
+        <div class="relative pl-16 bg-white">
+
+          <div class="font-semibold leading-7 text-gray-900">
+
+            <div class="absolute top-0 left-0 flex h-12 w-12 items-center justify-center rounded-lg md:h-14 md:w-14">
+
+              <img src="./img/icon-custom.svg">
+            </div>
+            
+            Customs Clearance
+
+          </div>
+          <div class="mt-0 leading-6 text-gray-600">Import and export clearance management service for any type of merchandise.</div>
+        </div>
+
+        <div class="relative pl-16 bg-white">
+
+          <div class="font-semibold leading-7 text-gray-900">
+
+            <div class="absolute top-0 left-0 flex h-12 w-12 items-center justify-center rounded-lg md:h-14 md:w-14">
+
+              <img src="img/icon-container.svg">
+            </div>
+            
+            Container Rental
+           
+          </div>
+          <div class="mt-0 leading-6 text-gray-600"> Our own containers for rental to our clients, both dry and reefer equipments.</div>
+        </div>
+
+
+        <div class="relative pl-16 bg-white">
+
+          <div class="font-semibold leading-7 text-gray-900">
+
+            <div class="absolute top-0 left-0 flex h-12 w-12 items-center justify-center rounded-lg md:h-14 md:w-14">
+
+              <img src="img/icon-domestic.svg">
+            </div>
+            
+            Domestic Freight
+          
+          </div>
+          <div class="mt-0 leading-6 text-gray-600">  From port to client's address.</div>
+        </div>
+
+        <div class="relative pl-16 bg-white">
+
+          <div class="font-semibold leading-6 text-gray-900">
+
+            <div class="absolute top-0 left-0 flex h-12 w-12 items-center justify-center rounded-lg md:h-14 md:w-14">
+
+             <img src="img/icon-packaging.svg" alt="">
+            </div>
+            
+            Packaging
+            
+          </div>
+          <div class="mt-0 leading-6 text-gray-600">Merchandise preparation, packaging, repackaging, labeling and palletizing.</div>
+        </div>
+
+        <div class="relative pl-16 bg-white">
+
+          <div class="font-semibold leading-7 text-gray-900">
+
+            <div class="absolute top-0 left-0 flex h-12 w-12 items-center justify-center rounded-lg md:h-14 md:w-14">
+
+            <img src="img/icon-stuffing.svg">
+            </div>
+            
+            Stuffing & Destuffing
+            
+          </div>
+          <div class="mt-0 leading-6 text-gray-600">At port or client's address, meeting the needs and requirements of merchandise.</div>
+        </div>
+
+
+ 
+      </div>
+    </div>
+  
+  <div class="relative hidden md:block flex flex-col space-y-12 md:w-1/2 z-40 mt-100 md:items-end h-[780px] -top-8 -right-24">
+    <div class="absolute hidden col-span-2 row-span-4 md:block md:items-end">
+      <img class="" src="./img/contenedores.png">
+    </div>
+  </div>
+</div>
+</section>
+<!--seccion formu-->
+<section id="formu">
+<div class="relative w-full h-[947px] bg-[url('./img/background_ship.jpg')] bg-object-cover">
+ 
+  <div class="flex flex-row mx-auto">
+
+    <div class="w-1/2 hidden md:block">
+   
+    </div>
+ 
+    <div class="w-full pt-20 md:w-1/2">
+      <div class="w-4/5 mx-auto md:w-3/5">
+      <h1 class="text-xl text-white font-bold">Contactenos</h1>
+      <p class="text-white">En breve nos ponemos en contacto con Ud.</p>
+      <div class="mt-10">
+        <form action="#" method="POST">
+          <div>
+          <label for="name" class="block text-sm font-medium leading-6 text-white">Nombre</label>
+          <div class="mt-2.5 mb-4">
+          <input type="text" name="name" id="name" autocomplete="name" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          </div>
+          </div>
+          <div>
+          <label for="email" class="block text-sm font-medium leading-6 text-white">Email</label>
+          <div class="mt-2.5 mb-4">
+          <input type="email" name="email" id="email" autocomplete="email" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          </div>
+          </div>
+
+          <div>
+          
+          <label for="phone" class="block text-sm font-medium leading-6 text-white">Teléfono</label>
+          <div class="mt-2.5">
+          <input type="text" name="phone" id="phone" autocomplete="phone" class="mt-2 block w-full rounded-md border-0 py-1.5 text-gray-900 shadow-sm ring-1 ring-inset ring-gray-300 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6">
+          </div>
+          </div>
+          <div class="mt-10">
+            <button type="submit" class="block w-full rounded-md bg-verdeAirmar px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-grisAirmar">Let's talk</button>
+          </div>
+
+      </form>
+    </div>
+    
+    </div>
+    </div>
+
+
+  </div>
+  <div class="absolute bottom-0 left-0 w-full bg-grisAirmar bg-opacity-60 items-center md:flex md:h-[290px]">
+  
+      <div class="w-full flex justify-center md:w-1/2">
+        <img class="w-[323px] h-[148px]" src="./img/CMP-LOGO 1.png">
+    </div>
+    <div class="w-full md:w-1/2 text-white">
+      <p class="m-6 y-6 text-xl text-center md:w-4/5 md:text-left md:text-base">A diversified group of companies specialized in the logistics sector, with a recognized track record in the national market, offering high-quality products and related services, committed to the commercial integration of Paraguay in the world since 1953</p>
+    </div>
+  
+    
+</div>
+
+
+</div>
+
+</section>
+
+<!--Footer-->
+  <div class="w-full h-[386px] flex-row bg-grisAirmar md:flex ">
+    <div class="pt-8 w-full flex justify-center md:items-center md:m-2 md:pl-20 md:w-1/3">
+      <img src="./img/logo_airmarcargo_horizontal 2.png" class="w-[284px] h-[71px]">
+    </div>
+    <div class="py-8 px-8 md:pl-20 m-2 w-full md:w-1/3 text-white md:pt-32">
+     
+      <div class="flex justify-center mb-4">
+        <i class="h-6 w-6 px-1 py-1 mr-1 fa-solid fa-phone"></i>
+      
+      +595 21 613 713 
+    </div>
+      
+      <div class="flex justify-center mb-4">
+      <i class="h-6 w-6 px-1 py-1 mr-1 fa-solid fa-envelope"></i>
+
+        info@airmarcargo.com.py <br/>
+      </div>
+      <div class="flex justify-center mb-4">
+        <i class="h-6 w-6 px-1 py-1 mr-1 fa-sharp fa-solid fa-location-dot"></i>
+       
+         Avda. Artigas 4141. Asunción, Paraguay.
+
+        </div>
+ 
+    </div>
+    <div class="pl-20 m-2 w-1/3 text-white md:flex md:items-center md:place-content-center">
+       <!-- Redes -->
+    <div class="hidden md:flex">
+    
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+      
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-instagram-square"></i>
+        </a>
+    </div>
+  </div>
+  <script
+  src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+  integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+  crossorigin="anonymous"></script>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

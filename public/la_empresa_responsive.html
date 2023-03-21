@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="outputs.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>AIRMARCARGO</title>
+</head>
+<body>
+    <!-- Navbar -->
+  <div class="w-full flex flex-row bg-grisAirmar">
+  <nav class="container mx-auto p-6 pt-12 pb-12 bg-grisAirmar">
+    <!-- Flex container -->
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <div class="pt-2">
+        <img src="./img/logo_airmarcargo_horizontal.png" alt="" />
+      </div>
+      <!-- Menu Items -->
+      <div class="hidden space-x-6 md:flex md:text-white">
+        <a href="#" class="md:hover:text-verdeAirmar">INICIO</a>
+        <a href="#" class="md:hover:text-verdeAirmar">LA EMPRESA</a>
+        <a href="#" class="md:hover:text-verdeAirmar">SERVICIOS</a>
+        <a href="#" class="md:hover:text-verdeAirmar">GALERIA</a>
+        <a href="#" class="md:hover:text-verdeAirmar">CONTACTO</a>
+      </div>
+      <!-- Redes -->
+    <div class="hidden justify-end md:flex">
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-instagram-square"></i>
+        </a>
+    </div>
+      <!-- Hamburger Icon -->
+      <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="md:hidden">
+      <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white z-50 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+      >
+        <a href="#">INICIO</a>
+        <a href="#">LA EMPRESA</a>
+        <a href="#">SERVICIOS</a>
+        <a href="#">GALERÍA </a>
+        <a href="#">CONTACTO</a>
+      </div>
+    </div>
+  </nav>
+</div>
+<!--FIN NAV-->
+
+
+<div class="pt-[3rem] pb-[5rem] relative">
+    <div class="grid grid-cols-2 gap-6 max-w-6xl mx-auto w-11/12 ">
+      <div class="lg:w-2/5 lg:absolute lg:-top-24 lg:right-0 z-[100]">
+        <div class="w-full h-full">
+          <img src="./img/img_laempresa.png" class="w-full h-full object-cover lg:object-contain" alt="">
+        </div>
+      </div>
+      <div>
+        <span class="block text-c-primary mb-4">
+          Nuestros esfuerzos institucionales están orientados a la inclusión
+          educativa,
+          laboral y social de personas con discapacidad intelectual y
+          psicosocial,
+          mediante una diversidad de programas con un enfoque orientado a la
+          calidad de
+          vida, apuntando al máximo desarrollo de las potencialidades y
+          habilidades de
+          quienes asisten a la institución.
+        </span>
+        <span class="block text-c-primary mb-4">
+          Nos sostenemos gracias a los aportes solidarios de la ciudadanía y
+          empresas, que
+          constituyen cerca del 60% de nuestros ingresos, así como un 33% con
+          fondos del
+          Estado paraguayo, y un 7% proveniente de las cuotas y matrículas.
+        </span>
+        <span class="block text-c-primary mb-4">
+          Anualmente llegamos a más de 150 niñas, niños, jóvenes y personas
+          adultas de a
+          partir de 6 años de edad, cuya cuota se establece acorde a su
+          situación
+          socioeconómica.
+        </span>
+
+        <span class="block text-2xl font-bold text-c-light mb-4">Misión</span>
+
+        <span class="block text-c-primary">
+          El DENIDE es una institución sin fines de lucro que contribuye a que
+          niños/as, y
+          jóvenes con discapacidad intelectual puedan alcanzar su autonomía y
+          adaptación
+          social.
+        </span>
+      </div>
+    
+    </div>
+  </div>
+
+<!--Mision y Vision-->
+<section>
+<div class="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-4">
+    <div class="rounded-2xl px-10 py-10 bg-gradient-to-b from-gray-200">
+        <h3 class="text-4xl font-bold mb-4 text-verdeAirmar">Visión</h3>
+        <p>Ser el mejor aliado para el cliente, la mejor respuesta a sus necesidades logísticas.</p>
+    </div>
+    <div class="rounded-2xl px-10 py-10 bg-gradient-to-b from-gray-200">
+        <h3 class="text-4xl font-bold mb-4 text-verdeAirmar">Misión</h3>
+        <p>Desarrollar soluciones integrales a través de una gestión diligente en cada una de las operaciones que realizamos.</p>
+    </div>
+    <div class="rounded-2xl px-10 py-10 bg-gradient-to-b from-gray-200">
+        <h3 class="text-4xl font-bold mb-4 text-verdeAirmar">Valores</h3>
+        <ul>
+            <li>Honestidad</li>
+            <li>Responsabilidad</li>
+            <li> Eficiencia</li>
+            <li>Integridad</li>
+        </ul>
+    </div>
+
+</div>
+
+</section>
+
+<!--Seccion Equipo Airmarcargo-->
+<section>
+    <div class="container mx-auto my-20">
+        <h1 class="text-2xl font-bold text-center md:text-left text-grisAirmar">El equipo de AIRMARCARGO</h1>
+
+        <div class="grid grid-cols-1 ml-4 md:grid-cols-3 gap-x-12 gap-y-20 mt-20">
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/foto-samy.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">SAMY NÚÑEZ</div>
+                    <div class="w-full font-bold text-gris">MANAGER</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/juliana-bosch.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">JULIANA BOSCH</div>
+                    <div class="w-full font-bold text-gris">DEPUTY DIRECTOR</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/richard-zarate.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">RICHARD ZÁRATE</div>
+                    <div class="w-full font-bold text-gris">HEAD OF SALES</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/pamela-salinas.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">PAMELA SALINAS</div>
+                    <div class="w-full font-bold text-gris">SALES</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/dalma-rojas.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">DALMA ROJAS</div>
+                    <div class="w-full font-bold text-gris">INSIDE SALES</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/angelica-martinez.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">ANGÉLICA MARTÍNEZ</div>
+                    <div class="w-full font-bold text-gris">ACCOUNTING</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/fany-sanchez.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">FANNY SÁNCHEZ</div>
+                    <div class="w-full font-bold text-gris">HEAD OF OPERATIONS</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/victor-ruizdiaz.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">VICTOR RUÍZ DÍAZ</div>
+                    <div class="w-full font-bold text-gris">OPERATIONS</div>
+                </div>
+            </div>
+
+            <div class="flex">
+                <div class="w-[200px] h-[200px]">
+                    <img src="./img/cristhyams-zeballos.png">
+                </div>
+                <div class="pt-20 ml-8">
+                    <div class="w-full text-2xl text-gris">CRISTHYAMS ZEVALLOS</div>
+                    <div class="w-full font-bold text-gris">OPERATIONS</div>
+                </div>
+            </div>
+            
+        </div>
+
+        
+    </div>
+</section>
+
+<!--Footer-->
+<div class="w-full h-[386px] flex-row bg-grisAirmar md:flex ">
+    <div class="pt-8 w-full flex justify-center md:items-center md:m-2 md:pl-20 md:w-1/3">
+      <img src="./img/logo_airmarcargo_horizontal 2.png" class="w-[284px] h-[71px]">
+    </div>
+    <div class="py-8 px-8 md:pl-20 m-2 w-full md:w-1/3 text-white md:pt-32">
+     
+      <div class="flex justify-center mb-4">
+        <i class="h-6 w-6 px-1 py-1 mr-1 fa-solid fa-phone"></i>
+      
+      +595 21 613 713 
+    </div>
+      
+      <div class="flex justify-center mb-4">
+      <i class="h-6 w-6 px-1 py-1 mr-1 fa-solid fa-envelope"></i>
+
+        info@airmarcargo.com.py <br/>
+      </div>
+      <div class="flex justify-center mb-4">
+        <i class="h-6 w-6 px-1 py-1 mr-1 fa-sharp fa-solid fa-location-dot"></i>
+       
+         Avda. Artigas 4141. Asunción, Paraguay.
+
+        </div>
+ 
+    </div>
+    <div class="pl-20 m-2 w-1/3 text-white md:flex md:items-center md:place-content-center">
+       <!-- Redes -->
+    <div class="hidden md:flex">
+    
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+      
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-instagram-square"></i>
+        </a>
+    </div>
+  </div>
+ 
+
+  <script src="./js/script.js"></script>
+</body>
+</html>

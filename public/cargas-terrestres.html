@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css" integrity="sha512-10/jx2EXwxxWqCLX/hHth/vu2KY3jCF70dCQB8TSgNjbCVAC/8vai53GfMDrO2Emgwccf2pJqxct9ehpzG+MTw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="outputs.css">
+    <link rel="stylesheet" href="css/main.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <title>AIRMARCARGO</title>
+</head>
+<body>
+    <!-- Navbar -->
+  <div class="w-full flex flex-row bg-grisAirmar">
+  <nav class="container mx-auto p-6 pt-12 pb-12 bg-grisAirmar">
+    <!-- Flex container -->
+    <div class="flex items-center justify-between">
+      <!-- Logo -->
+      <div class="pt-2">
+        <img src="./img/logo_airmarcargo_horizontal.png" alt="" />
+      </div>
+      <!-- Menu Items -->
+      <div class="hidden space-x-6 md:flex md:text-white">
+        <a href="index.html" class="md:hover:text-verdeAirmar">INICIO</a>
+        <a href="la_empresa.html" class="md:hover:text-verdeAirmar">LA EMPRESA</a>
+        <a href="servicios.html" class="md:hover:text-verdeAirmar">SERVICIOS</a>
+        <a href="galeria.html" class="md:hover:text-verdeAirmar">GALERIA</a>
+        <a href="contacto.html" class="md:hover:text-verdeAirmar">CONTACTO</a>
+      </div>
+      <!-- Redes -->
+    <div class="hidden justify-end md:flex">
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-instagram-square"></i>
+        </a>
+    </div>
+      <!-- Hamburger Icon -->
+      <button id="menu-btn" class="block hamburger md:hidden focus:outline-none">
+        <span class="hamburger-top"></span>
+        <span class="hamburger-middle"></span>
+        <span class="hamburger-bottom"></span>
+      </button>
+    </div>
+
+    <!-- Mobile Menu -->
+    <div class="md:hidden">
+      <div id="menu" class="absolute flex-col items-center hidden self-end py-8 mt-10 space-y-6 font-bold bg-white z-50 sm:w-auto sm:self-center left-6 right-6 drop-shadow-md"
+      >
+        <a href="index.html">INICIO</a>
+        <a href="la_empresa.html">LA EMPRESA</a>
+        <a href="servicios.html">SERVICIOS</a>
+        <a href="galeria.html">GALERIA</a>
+        <a href="contacto.html">CONTACTO</a>
+      </div>
+    </div>
+  </nav>
+</div>
+<!--FIN NAV-->
+
+
+<div class="md:flex md:flex-row w-full">
+<div class="hidden md:w-1/3 md:block">
+    <img src="./img/cargas-terrestres.png">
+
+</div>
+<div class="w-full md:hidden">
+    <img src="./img/cargas-terrestres_resp.jpg">
+
+</div>
+
+<div class="mx-8 mb-8 md:w-2/3 md:mx-16 md:px-16 md:my-16">
+    
+    <div class="md:w-[852px] mt-16">
+        <p class="text-2xl text-[#9B9B9C]">AIRMARCARGO</p>
+        <p class="text-2xl md:text-4xl font-bold text-grisAirmar">SERVICIOS</p>
+        <h1 class="text-2xl md:text-4xl font-bold text-verdeAirmar py-8 ">CARGAS TERRESTRES</h1>
+        
+        
+        
+            <span class="block text-grisAirmar mb-4">
+                Como operadores logísticos, hemos desarrollado alianzas importantes con transportadores de larga trayectoria en el mercado Nacional e Internacional, por lo cual podemos ofrecer un servicio de calidad y excelencia, manejo seguro de cada uno de los procesos de transporte terrestre.
+                </span>
+                <span class="block text-grisAirmar mb-4">
+Dentro de los servicios de flete terrestre podemos manejar tanto camiones completos como consolidados.
+
+
+        </span>
+
+        <div class="mt-20">
+            
+            <a href="#" class="px-16 py-4 bg-verdeAirmar text-white text-center align-middle rounded-md hover:bg-grisAirmar">SOLICITAR</a>
+       
+        </div>
+    </div>
+</div>
+
+</div>
+
+
+
+
+
+<!--Footer-->
+<div class="w-full h-[386px] flex-row bg-grisAirmar md:flex ">
+    <div class="pt-8 w-full flex justify-center md:items-center md:m-2 md:pl-20 md:w-1/3">
+      <img src="./img/logo_airmarcargo_horizontal 2.png" class="w-[284px] h-[71px]">
+    </div>
+    <div class="py-8 px-8 md:pl-20 m-2 w-full md:w-1/3 text-white md:pt-32">
+     
+      <div class="flex justify-center mb-4">
+        <i class="h-6 w-6 px-1 py-1 mr-1 fa-solid fa-phone"></i>
+      
+      +595 21 613 713 
+    </div>
+      
+      <div class="flex justify-center mb-4">
+      <i class="h-6 w-6 px-1 py-1 mr-1 fa-solid fa-envelope"></i>
+
+        info@airmarcargo.com.py <br/>
+      </div>
+      <div class="flex justify-center mb-4">
+        <i class="h-6 w-6 px-1 py-1 mr-1 fa-sharp fa-solid fa-location-dot"></i>
+       
+         Avda. Artigas 4141. Asunción, Paraguay.
+
+        </div>
+ 
+    </div>
+    <div class="pl-20 m-2 w-1/3 text-white md:flex md:items-center md:place-content-center">
+       <!-- Redes -->
+    <div class="hidden md:flex">
+    
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+      
+        <i class="fa-brands fa-facebook-square"></i>
+      </a>
+      <a href="#" class="block text-white text-4xl ml-4 hover:text-verdeAirmar">
+        <i class="fa-brands fa-instagram-square"></i>
+        </a>
+    </div>
+  </div>
+ 
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
